@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name:	hello-meta
+spec:
+  containers:
+    - name: metadatacontainer
+      image: sunitparekh/metadata:v1.0
+      ports:
+        - containerPort: 8080
